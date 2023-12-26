@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/brandon/cpp-fun/cpp-fun/build",
+  "command": "/usr/bin/clang++  -I/home/brandon/cpp-fun/cpp-fun/usr/include -I/home/brandon/cpp-fun/cpp-fun/lib -g -std=gnu++14 -o CMakeFiles/cpp_fun.dir/test/main.cpp.o -c /home/brandon/cpp-fun/cpp-fun/test/main.cpp",
+  "file": "/home/brandon/cpp-fun/cpp-fun/test/main.cpp",
+  "output": "CMakeFiles/cpp_fun.dir/test/main.cpp.o"
+}
+]
