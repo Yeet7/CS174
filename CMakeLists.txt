@@ -8,7 +8,7 @@ include_directories(usr/include
 
 find_package(SFML 2.5 COMPONENTS graphics audio system window network REQUIRED)
 
-add_executable(cpp_fun
+add_executable(
         lib/SFML/Debug/sfml-audio-s-d.pdb
         lib/SFML/Debug/sfml-audio-s.pdb
         lib/SFML/Debug/sfml-audio.pdb
@@ -64,6 +64,6 @@ add_executable(cpp_fun
         lib/SFML/vorbis.lib
         lib/SFML/vorbisenc.lib
         lib/SFML/vorbisfile.lib
-        test/main.cpp)
+        main/test/main.cpp)
 
 target_link_libraries(cpp_fun sfml-graphics sfml-audio sfml-window sfml-network sfml-system)
